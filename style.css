@@ -1,0 +1,188 @@
+/* Reset and general styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #7776B3;
+  }
+  
+  header {
+    background-color: #5A639C;
+    color: #fff;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+  }
+  
+  header h1 {
+    margin: 0;
+    float: left;
+    font-size: 36px;
+  }
+  
+  nav ul {
+    float: right;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  #home{
+    background-color: #E2BBE9;
+    margin:30px;
+    border-radius: 10px;
+  }
+
+  #services{
+    background-color: #9B86BD;
+    margin:30px;
+    border-radius: 10px;
+  }
+
+  #about{
+    background-color: #E2BBE9;
+    margin:30px;
+    border-radius: 10px;
+  }
+
+  #contact{
+    background-color: #9B86BD;
+    margin:30px;
+    border-radius: 10px;
+  }
+
+  .service1{
+    height:150px;
+    width: 200px;
+    background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW1gm7i?ver=d0a7&q=90&m=6&h=705&w=1253&b=%23FFFFFFFF&f=jpg&o=f&p=140&aim=true");
+    background-size: cover;
+    display: inline-block;
+    border:3px solid black;
+    margin:30px;
+    color: red;
+
+  }
+  
+  .service2{
+    height:150px;
+    width: 200px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNtXcX74NuNVw1qDxRglbwNej8TfIf3KTNsw&s");
+    background-size: cover;
+    display: inline-block;
+    border:3px solid black;
+    margin:30px;
+    color: red;
+  }
+
+  .service3{
+    height:150px;
+    width: 200px;
+    background-image: url("https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1666991900-arctis-nova-7p-gaming-headset-1666991808.jpg?crop=1xw:1xh;center,top&resize=980:*");
+    background-size: cover;
+    display: inline-block;
+    border:3px solid black;
+    margin:30px;
+    color: red;
+  }
+
+  .section {
+    padding: 50px 0;
+  }
+  
+  .section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #5A639C;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+    nav ul {
+      float: none;
+      text-align: center;
+      margin-top: 10px;
+    }
+    nav ul li {
+      display: block;
+      margin: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header h1 {
+      text-align: center;
+      float: none;
+      margin-bottom: 20px;
+    }
+  }
+  
